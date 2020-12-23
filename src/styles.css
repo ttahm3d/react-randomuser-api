@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.user-card {
+  background-color: #fafafa;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.user-name {
+  margin-bottom: 0;
+}
+
+.user-card img {
+  border: 50%;
+}

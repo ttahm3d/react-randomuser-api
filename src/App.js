@@ -17,6 +17,7 @@ export default function App() {
       })
       .catch((error) => console.error(error));
   }, []);
+  // console.log(user.results);
   return (
     <div className="App">
       {loading ? <p>Loading....</p> : <Person user={user.results[0]} />}
